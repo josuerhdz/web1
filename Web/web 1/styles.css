@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+.small-image {
+    max-width: 30%; /* Ajusta el tamaño según tus preferencias */
+    height: auto;
+}
+
+
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfafa;
+}
+
+header {
+    background-color: #191186;
+    background-image: linear-gradient(rgba(28, 59, 95, 0.9), rgba(19, 49, 133, 0.7));
+    border-bottom: 1px solid #0f1747;
+}
+
+footer {
+    background-color: #191186;
+    background-image: linear-gradient(rgba(28, 59, 95, 0.9), rgba(19, 49, 133, 0.7));
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.intro {
+    background-color: #1b4cb6f3;
+    padding: 2rem;
+    text-align: center;
+}
+
+.info {
+    padding: 3rem;
+}
+
+.car-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem; /* Separación entre filas */
+}
+
+.car-card {
+    background-color: #1b4cb6f3;
+    border: 1px solid #000000;
+    padding: 1.9rem;
+    text-align: center;
+    width: calc(50% - 0.5rem); /* Ten en cuenta la separación de 1rem */
+    transition: all 0.3s ease-in-out; /* Transición suave */
+    opacity: 1; /* Establecer opacidad inicial */
+}
+
+.car-card.active {
+    transform: scale(1.1); /* Agrandar el cuadro */
+    opacity: 1; /* Mantener opacidad */
+}
+
+.car-card.inactive {
+    opacity: 0.3; /* Hacer el cuadro opaco */
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.car-card h3 {
+    margin-top: 0.5rem;
+}
+
+/* ... (otros estilos) ... */
+
+.larger {
+    width: calc(100% - 2rem); /* Ajusta el tamaño según tu preferencia */
+}
+
+/* ... (otros estilos) ... */
+
+
